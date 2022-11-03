@@ -4,7 +4,7 @@
 
   - use ncl script here: `prepare_scriptgrid_fenno_ocean.ncl` (*land mask need to be 1*)
   - detailed instruction is in the file.
-  - would be good to improve this part (e.g., using python)
+  - ***would be good to improve this part (e.g., using python)***
 ```
 module load NCL/6.6.2-intel-2020a
 ncl prepare_scriptgrid_fenno_ocean.ncl
@@ -13,7 +13,7 @@ ncl prepare_scriptgrid_fenno_ocean.ncl
 ## Creat mesh file 
   - use shell script and ESMF applications here: `create_mesh.sh`
   - detailed instruction is in the file. 
-  - would be good to improve this part (e.g., using python and ESMPy)
+  - ***would be good to improve this part (e.g., using python and ESMPy)***
 ```
 ./create_mesh.sh
 ```
@@ -80,6 +80,9 @@ Go to env_mach_pes.xml, modify the following parts accordingly.
 ```
 fsurdat='/cluster/projects/nn2806k/huit/inputdata/lnd/clm2/surfdata_map/surfdata_fenno_5x5km_simyr2000_0.5x0.5lai.nc'
 ``` 
+- *If you want to make surface data for specific domain on your own, please follow the [scripts](https://github.com/huitang-earth/NLPprep/blob/main/workflowsetupsitesimulation.sh) L101-136 on github (work for SAGA)*
+- ***This is the part that need to be streamlined too.*** 
+
 2. Mesh files: need to modify `env_run.xml` in the case folder. Use the same mesh file seem to work for my testing case.
 ```
 # set up atm mesh file:
@@ -115,3 +118,6 @@ cd $HOME/ctsm_cases/2000CLM-SP_clm5.1dev113
 # Go to the archive folder (output in netcdf format)
 cd $USERWORK/archive/2000CLM-SP_clm5.1dev113/lnd/hist
 ```
+
+## Adding new atmospheric forcing and its mesh file
+- To be done!
