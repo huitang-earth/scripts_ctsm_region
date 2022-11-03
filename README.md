@@ -80,7 +80,7 @@ Go to env_mach_pes.xml, modify the following parts accordingly.
 ```
 fsurdat='/cluster/projects/nn2806k/huit/inputdata/lnd/clm2/surfdata_map/surfdata_fenno_5x5km_simyr2000_0.5x0.5lai.nc'
 ``` 
-- *If you want to make surface data for specific domain on your own, please follow the [scripts](https://github.com/huitang-earth/NLPprep/blob/main/workflowsetupsitesimulation.sh) L101-136 on github (work for SAGA)*
+- *If you want to make surface data for specific domain on your own, please follow the [scripts](https://github.com/huitang-earth/NLP_prep/blob/main/workflow_setup_site_simulation.sh) L101-136 on github (work for SAGA)*
 - ***This is the part that need to be streamlined too.*** 
 
 2. Mesh files: need to modify `env_run.xml` in the case folder. Use the same mesh file seem to work for my testing case.
