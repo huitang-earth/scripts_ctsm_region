@@ -82,7 +82,7 @@ fsurdat='/cluster/projects/nn2806k/huit/inputdata/lnd/clm2/surfdata_map/surfdata
 ``` 
 - This is an old surface data I generated for the nordic region.
 - *If you want to make new surface data for specific domain on your own, please follow the [scripts](https://github.com/huitang-earth/NLP_prep/blob/main/workflow_setup_site_simulation.sh) L101-136 on github (work for SAGA)*
-- ***This is the part that need to be streamlined too.*** 
+- ***This is the part that need to be streamlined too***. Simple solution is to overwrite *mkmapdata.sh* with the one provided in the repo.
 
 2. Mesh files: need to modify `env_run.xml` in the case folder. Use the same mesh file seem to work for my testing case.
 ```
