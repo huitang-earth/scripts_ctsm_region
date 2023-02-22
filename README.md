@@ -121,4 +121,7 @@ cd $USERWORK/archive/2000CLM-SP_clm5.1dev113/lnd/hist
 ```
 
 ## Adding new atmospheric forcing and its mesh file
-- To be done!
+
+see README.md in "atm_forcing/cosmo_rea_6km"
+
+
