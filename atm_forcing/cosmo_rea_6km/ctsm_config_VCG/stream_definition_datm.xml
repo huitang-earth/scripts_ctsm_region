@@ -377,7 +377,7 @@
       <meshfile>none</meshfile>
     </stream_meshfile>
     <stream_datafiles>
-      <file first_year="1995" last_year="2018">$DIN_LOC_ROOT_CLMFORC/ALP1/clm1pt_ALP1_%ym.nc</file>
+      <file first_year="1995" last_year="2018">$DIN_LOC_ROOT_CLMFORC/${VCGSITE}/clm1pt_${VCGSITE}_%ym.nc</file>
     </stream_datafiles>
     <stream_datavars>
       <var>SWDIFDS_RAD Faxa_swdndf</var>
@@ -409,7 +409,7 @@
       <meshfile>none</meshfile>
     </stream_meshfile>
     <stream_datafiles>
-      <file first_year="1995" last_year="2018">$DIN_LOC_ROOT_CLMFORC/ALP1/clm1pt_ALP1_%ym.nc</file>
+      <file first_year="1995" last_year="2018">$DIN_LOC_ROOT_CLMFORC/${VCGSITE}/clm1pt_${VCGSITE}_%ym.nc</file>
     </stream_datafiles>
     <stream_datavars>
       <var>RAIN_CON Faxa_rainc</var>
@@ -444,7 +444,7 @@
       <meshfile>none</meshfile>
     </stream_meshfile>
     <stream_datafiles>
-      <file first_year="1995" last_year="2018">$DIN_LOC_ROOT_CLMFORC/ALP1/clm1pt_ALP1_%ym.nc</file>
+      <file first_year="1995" last_year="2018">$DIN_LOC_ROOT_CLMFORC/${VCGSITE}/clm1pt_${VCGSITE}_%ym.nc</file>
     </stream_datafiles>
     <stream_datavars>
       <var>TBOT     Sa_tbot</var>
